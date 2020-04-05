@@ -1,0 +1,69 @@
+[
+    {
+        "id": "Cheese-Ball-Recipe",
+        "name": "Cheese Ball Recipe",
+        "ingredients": [
+            "Cheddar",
+            "Cream Cheese",
+            "3 Roma tomatoes, diced",
+            "Deviled Ham",
+            "Green Onions",
+            "Mustard",
+            "Salt",
+            "Celery Seed",
+            "Hickory Bacon"
+        ],
+        "directions":[
+            "In a large mixing bowl, using a wooden spoon, mix together the cheddar, cream cheese, ham, green onions, mustard, salt and celery seed until well combined. Use your hands to form into either a single ball or several mini balls.",
+            "Cook the bacon and crumble. I recommend using bacon and not bacon bites as the flavor is much better.",
+            "Place the crumbled bacon on a large dinner plate and roll the ball (or balls if you make them small like I have) in the bacon crumbles, coating evenly and completely.",
+            "Wrap the ball (or balls) in plastic wrap and refrigerate overnight.",
+            "Serve with crackers or even celery sticks for scooping."
+        ],
+        "image":{
+            "_url": "https://d3eh3svpl1busq.cloudfront.net/lrAhixkSbTKLvbFjFReqBsFpqOayMRLK/assets/static/optimized/rev-781e267/wp-content/uploads/images/2019/11/cheeseball.jpg"
+        }
+    },
+    {
+        "id": "Classic-Knorr-Spinach-Dip-Recipe",
+        "name": "Classic Knorr Spinach Dip Recipe",
+        "ingredients": [
+            "Knorr Vegetable Recipe Mix (maybe this used to be called soup mix)",
+            "Mayonnaise",
+            "Sour Cream",
+            "Frozen Spinach",
+            "Water Chestnuts",
+            "Green Onions",
+            "Pumpernickel Bread",
+            "Onion soup mix – now this is MY addition! I love to sneak in some extra onion flavor, so if you are a fan like me, toss in a tablespoon of dry onion soup mix!"
+        ],
+        "directions":[
+            "Mix together the ingredients in a medium-sized bowl.",
+            "Chill for at least 6 hours or overnight in the refrigerator.",
+            "To make a bread bowl, remove the top and insides of the sourdough bread and fill the bowl with the dip.",
+            "Slice the bread you removed from the center into cubes. Set aside.",
+            "On a large serving platter, place the bread bowl in the center and arrange the fresh vegetables, crackers, bread cubes, and/ or potato chips around it."
+        ],
+        "image":{
+            "_url": "https://d3eh3svpl1busq.cloudfront.net/lrAhixkSbTKLvbFjFReqBsFpqOayMRLK/assets/static/optimized/rev-781e267/wp-content/uploads/images/2019/11/spinachdip4.jpg"
+        }
+    },
+    {
+        "id": "Kale Chips Recipe",
+        "name": "Kale Chips Recipe",
+        "ingredients": [
+            "1 bunch of kale",
+            "1 -2 tablespoons olive oil",
+            "1/2 tsp of fine sea salt – to taste."
+        ],
+        "directions":[
+            "Place the kale into a large bowl then drizzle the olive oil over it. I work the olive oil in using my hands instead of tossing it. Curly kale has more nooks and crannies than the other kale does, so I make sure that it’s coated completely. Too much oil can cause limp kale, but too little and you’re not crisping it up!",
+            "Place in a single layer on a baking sheet and sprinkle with salt. I love mine good and salty, you may have to start at 1/2 tsp and work your way up to what you prefer.",
+            "Bake in a 300 degree oven for 10-15 minutes. Now, here’s where it gets tricky. This time is going to completely depend on the type of oven you have, how good the air circulates in it, how correct the heat temperature is. I suggest checking these at around the 8 minute mark and watching them closely. Mine took close to 15 minutes to dry out and crisp up, your kale chips might take more or less.",
+            "You bake them until they are crisped up like I show in the pictures."
+        ],
+        "image":{
+            "_url": "https://d3eh3svpl1busq.cloudfront.net/lrAhixkSbTKLvbFjFReqBsFpqOayMRLK/assets/static/source/rev-781e267/wp-content/uploads/images/2013/09/howtomakekalechips2.jpg"
+        }
+    }
+]

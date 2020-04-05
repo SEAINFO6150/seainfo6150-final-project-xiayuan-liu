@@ -1,0 +1,78 @@
+[
+    {
+        "id": "Beef-Bulgogi",
+        "name": "Beef Bulgogi",
+        "ingredients": [
+            "1 pound flank steak, thinly sliced",
+            "5 tablespoons soy sauce",
+            "2 1/2 tablespoons white sugar",
+            "1/4 cup chopped green onion",
+            "2 tablespoons minced garlic",
+            "2 tablespoons sesame seeds",
+            "2 tablespoons sesame oil",
+            "1/2 teaspoon ground black pepper"
+
+        ],
+        "directions":[
+            "Place the beef in a shallow dish. Combine soy sauce, sugar, green onion, garlic, sesame seeds, sesame oil, and ground black pepper in a small bowl. Pour over beef. Cover and refrigerate for at least 1 hour or overnight.",
+            "Preheat an outdoor grill for high heat, and lightly oil the grate.",
+            "Quickly grill beef on hot grill until slightly charred and cooked through, 1 to 2 minutes per side."
+
+        ],
+        "image":{
+            "_url": "https://images.media-allrecipes.com/userphotos/720x405/1254483.jpg"
+        }
+    },
+    {
+        "id": "Pad-Krapow-Gai",
+        "name": "Pad Krapow Gai",
+        "ingredients": [
+            "⅓ cup chicken broth",
+            "1 tablespoon oyster sauce",
+            "1 tablespoon soy sauce, or as needed",
+            "2 teaspoons fish sauce",
+            "1 teaspoon white sugar", 
+            "1 teaspoon brown sugar",
+            "2 tablespoons vegetable oil",
+            "1 pound skinless, boneless chicken thighs, coarsely chopped",
+            "¼ cup sliced shallots",
+            "4 cloves garlic, minced",
+            "2 tablespoons minced Thai chilies, Serrano, or other hot pepper",
+            "1 cup very thinly sliced fresh basil leaves",
+            "2 cups hot cooked rice"
+        
+        ],
+        "directions":[
+            "Whisk chicken broth, oyster sauce, soy sauce, fish sauce, white sugar, and brown sugar together in a bowl until well blended.",
+            "Heat large skillet over high heat. Drizzle in oil. Add chicken and stir fry until it loses its raw color, 2 to 3 minutes. Stir in shallots, garlic, and sliced chilies. Continue cooking on high heat until some of the juices start to caramelize in the bottom of the pan, about 2 or 3 more minutes. Add about a tablespoon of the sauce mixture to the skillet; cook and stir until sauce begins to caramelize, about 1 minute.",
+            "Pour in the rest of the sauce. Cook and stir until sauce has deglazed the bottom of the pan. Continue to cook until sauce glazes onto the meat, 1 or 2 more minutes. Remove from heat.",
+            "Stir in basil. Cook and stir until basil is wilted, about 20 seconds. Serve with rice."
+        ],
+        "image":{
+            "_url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5720680.jpg&w=596&h=596&c=sc&poi=face&q=85"
+        }
+    },
+    {
+        "id": "Slow-Cooker-Pot-Roast",
+        "name": "Slow Cooker Pot Roast",
+        "ingredients":[
+            "1 onion, sliced",
+            "1/4 cup all-purpose flour",
+            "1 (2 1/2 pound) boneless beef chuck roast",
+            "1 pinch salt and ground black pepper to taste",
+            "1 (1.2 ounce) package dry beef gravy mix",
+            "1 (1 ounce) package ranch dressing mix",
+            "1 (.7 ounce) package dry Italian-style salad dressing mix",
+            "1/2 cup water, or as needed"
+ 
+        ],
+        "directions":[
+           "Spray the inside of a slow cooker with cooking spray. Spread the onion slices out into the bottom of the cooker.",
+           "Spread the flour out onto a work surface. Sprinkle the chuck roast with salt and black pepper, and roll the roast in the flour to coat all sides. Using the edge of a small, sturdy plate, pound the flour into the meat. Place the floured roast into the cooker on top of the onions. Whisk together beef gravy mix, ranch dressing mix, and Italian dressing mix in a bowl, and whisk the mixes with water until smooth. Pour over the chuck roast. Distribute carrots around the meat.",
+           "Cover the cooker, set to Low, and cook until the roast is tender and the gravy has thickened, about 8 hours."
+        ],
+        "image":{
+            "_url": "https://images.media-allrecipes.com/userphotos/720x405/5860681.jpg"
+        }
+    }
+]

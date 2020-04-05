@@ -1,66 +1,64 @@
-import React from "react";
+import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import allCategories from './RecipeWeb/AllCategories';
+import Homepage from './RecipeWeb/Homepage.jsx';
+import AddRecipe from './RecipeWeb/AddRecipe.jsx';
+import Classfication from './RecipeWeb/Detail';
+import Help from './RecipeWeb/Help.jsx';
+import About from './RecipeWeb/About.jsx';
+import IndividualPage from './RecipeWeb/RecipePage';
 
-import Home from "./Home/Home.jsx";
-import Foo from "./Foo/Foo.jsx";
-import Bar from "./Bar/Bar.jsx";
-import Baz from "./Baz/Baz.jsx";
-import Error from "./Error/Error.jsx";
-
-// here is some external content. look at the /baz route below
-// to see how this content is passed down to the components via props
-const externalContent = {
-  id: "article-1",
-  title: "An Article",
-  author: "April Bingham",
-  text: "Some text in the article"
-};
 
 function App() {
   return (
     <Router>
       <header>
-        <nav>
+          <h1>Delicious Recipe</h1>
           <ul>
-            {/* these links should show you how to connect up a link to a specific route */}
             <li>
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/foo">Foo</Link>
+              <Link to="/AllCategories">Categories</Link>
             </li>
             <li>
-              <Link to="/bar/hats/sombrero">Bar</Link>
+              <Link to="/AddRecipe">Add Recipe</Link>
             </li>
             <li>
-              <Link to="/baz">Baz</Link>
+              <Link  to="/Help">Help</Link>
+            </li>
+            <li>
+              <Link to="/About">About</Link>
             </li>
           </ul>
-        </nav>
       </header>
-      {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
+ 
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/foo" exact component={Foo} />
-        {/* passing parameters via a route path */}
+        <Route path="/" exact component={Homepage} />
+        <Route path="/AllCategories" exact component={allCategories} />
+        <Route path ="/AddRecipe" exact component = {AddRecipe}/>
+        <Route path="/Help" component={Help} />
+        <Route path="/About" component={About} />
         <Route
-          path="/bar/:categoryId/:productId"
+          path="/AllCategories/:individual"
           exact
           render={({ match }) => (
-            // getting the parameters from the url and passing
-            // down to the component as props
-            <Bar
-              categoryId={match.params.categoryId}
-              productId={match.params.productId}
+            <IndividualPage
+              individual={match.params.individual}
             />
           )}
         />
         <Route
-          path="/baz"
+          path="/AllCategories/:individual/:info"
           exact
-          render={() => <Baz content={externalContent} />}
+          render={({ match }) => (
+            <Classfication
+              individual={match.params.individual}
+              info={match.params.info}
+            />
+          )}
         />
+
         <Route component={Error} />
       </Switch>
     </Router>
@@ -68,3 +66,5 @@ function App() {
 }
 
 export default App;
+
+
