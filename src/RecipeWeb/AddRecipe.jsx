@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./css/AddRecipe.module.css";
 
 class AddRecipe extends React.Component {
 	constructor() {
@@ -19,17 +20,17 @@ class AddRecipe extends React.Component {
 
 	handleSubmit = (e) => {
 		e.preventDefault();
-	    alert(`We received your recipe ${this.state.title}!`);
+	    alert(`We received your recipe ${this.state.title}! We will handle this ASAP!`);
 	}
 
 	render () {
 		return (
-			<div>
+			<div id={styles.add_recipe_page}>
 				<h3>Add Recipe</h3>
-				<form  onSubmit={this.handleSubmit}>
-					<ul>
+				<form className={styles.add_form}  onSubmit={this.handleSubmit}>
+					<ul className={styles.form_item}>
 						<li>
-							<label>
+							<label className={styles.to_send}>
 								Choose Category:
 								<select>
 									<option value ="appetizer">Appetizer</option>
@@ -40,7 +41,7 @@ class AddRecipe extends React.Component {
 							</label>
 						</li>
 						<li>
-							<label>
+							<label className={styles.to_send}>	
 								Choose Food Country:
 								<select>
 									<option value ="Italy">Italy</option>
@@ -56,19 +57,19 @@ class AddRecipe extends React.Component {
 							</label>
 						</li>
 						<li>
-							<label>
+							<label className={styles.to_send}>	
 							  Title:
 							  <input required="required" value={this.state.title} onChange={this.handleChange} name="title"/>
 							</label>
 						</li>
 						<li>
-							<label>
+							<label className={styles.to_send}>	
 							  Ingredients List:
 							  <textarea required="required" value={this.state.ingredients} onChange={this.handleChange} name="ingredients"/>
 							</label>
 						</li>
 						<li>
-							<label>
+							<label className={styles.to_send}>	
 							  Instructions:
 							  <textarea required="required" value={this.state.instructions} onChange={this.handleChange} name="instructions"/>
 							</label>

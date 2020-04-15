@@ -7,6 +7,8 @@ import Classfication from './RecipeWeb/Detail';
 import Help from './RecipeWeb/Help.jsx';
 import About from './RecipeWeb/About.jsx';
 import IndividualPage from './RecipeWeb/RecipePage';
+import styles from './App.module.css';
+import Error from './RecipeWeb/Error.jsx';
 
 
 function App() {
@@ -14,21 +16,21 @@ function App() {
     <Router>
       <header>
           <h1>Delicious Recipe</h1>
-          <ul>
+          <ul className={styles.nav}>
             <li>
-              <Link to="/">Home</Link>
+              <Link className={styles.link_color} to="/">Home</Link>
             </li>
             <li>
-              <Link to="/AllCategories">Categories</Link>
+              <Link className={styles.link_color} to="/AllCategories">Categories</Link>
             </li>
             <li>
-              <Link to="/AddRecipe">Add Recipe</Link>
+              <Link className={styles.link_color}  to="/AddRecipe">Add Recipe</Link>
             </li>
             <li>
-              <Link  to="/Help">Help</Link>
+              <Link className={styles.link_color}   to="/Help">Help</Link>
             </li>
             <li>
-              <Link to="/About">About</Link>
+              <Link className={styles.link_color}  to="/About">About</Link>
             </li>
           </ul>
       </header>

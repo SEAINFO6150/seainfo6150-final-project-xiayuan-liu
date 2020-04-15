@@ -1,0 +1,84 @@
+.add_form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 50%;
+}
+
+#add_recipe_page {
+	display: flex;
+	flex-direction: column;
+	background:rgba(230, 120, 18, 0.733);
+	align-items: center;
+	min-height: 75%;
+
+	font-size: 24px;
+	color: rgb(27, 158, 235);
+	font-family:  Comic Sans MS;
+}
+
+.to_send {
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+	width: 50vw;
+}
+
+label > input {
+ 	width: 50%;
+}
+
+textarea {
+	width: 50%;
+	height: 10vh;
+}
+
+select {
+    width: 50%;
+    font-size: 15px;
+}
+
+.form_item {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form_item li {
+	margin-top: 1vh;
+	color: rgb(27, 158, 235);
+	font-family: Comic Sans MS;
+}
+
+
+@media screen and (mix-width: 300px) {
+	.container {
+	  display: flex;
+	  justify-content: center;
+	}
+	.form_item li{
+		font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+	  display: flex;
+	  justify-content: center;
+  }
+  .form_item li{
+	font-size: 1.25em;
+}
+}
+
+@media screen and (min-width: 600px) {
+	.container {
+		display: flex;
+		justify-content: center;
+	}
+	.form_item li{
+		font-size: 1.5em;
+	}
+  }

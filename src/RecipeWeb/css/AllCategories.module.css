@@ -1,0 +1,58 @@
+.recipePage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(230, 120, 18, 0.733);
+
+	min-height: 75%;
+}
+
+h3 {
+	font-size: 30px;
+	color: rgb(27, 158, 235);
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.allRecipes {
+	display: grid;
+	column-gap: 2em;
+	row-gap: 2em;
+	font-size: 1em;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+
+.link {
+	text-decoration: none;
+	font-weight:bold;
+	font-size:25px;
+	color: rgb(27, 158, 235);
+	font-family: Comic Sans MS;
+}
+
+.img {
+	width: 80%;
+	height: 80%;
+}
+
+@media screen and (min-width: 300px) {
+	.allRecipes {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.allRecipes {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.allRecipes {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+	}
+}

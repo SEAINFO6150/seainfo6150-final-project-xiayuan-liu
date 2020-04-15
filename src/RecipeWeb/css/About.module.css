@@ -1,0 +1,58 @@
+.about{
+    overflow: scroll;
+      display: flex;
+      background-color:  rgba(230, 120, 18, 0.733);
+      font-size: 1em;
+      text-align: justify;
+      color: rgb(27, 158, 235);
+      font-family: Comic Sans MS;
+      line-height: 2em;
+
+  
+  }
+
+  .img{
+      height: 40%;
+      width: 30%;
+  
+  }
+  
+  .words{
+      margin-bottom: 2em;
+      margin-left: 2em;
+  }
+  
+  
+
+  
+  @media only screen and (min-width: 300px) {
+      .about {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+  
+      .words {
+          font-size: 1em;
+      }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .about {
+        display: flex;
+    }
+
+    .words {
+        font-size: 1.25em;
+    }
+}
+    @media only screen and (min-width: 900px) {
+        .about {
+            display: flex;
+        }
+
+        .words {
+            font-size: 1.5em;
+        }
+    }
