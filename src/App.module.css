@@ -6,7 +6,7 @@ header {
     display: flex;
     flex-direction: column;
     min-height: 25%;
-    background: #B0E0E6;
+    background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);
 }
 
 .nav {

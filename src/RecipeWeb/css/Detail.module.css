@@ -1,40 +1,12 @@
-.mark {
-    position: relative;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 2px solid transparent;
-}
-
-.mark:before {
-	content: "";
-	display: none;
-	position: absolute;
-	top:50%;
-	left: 25%;
-	height: 4px;
-	width: 8px;
-	border: solid black;
-	border-width: 0 0 4px 4px;
-	transform: rotate(-45deg);
-}
-
-.cb:checked~ .mark:before {
-    display: block;
-}
 
 .cb:checked~ .con {
     text-decoration: line-through;
 }
 
 .detailPage {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background: rgba(230, 120, 18, 0.733);
-	font-size: 24px;
+	background-color: rgba(230, 120, 18, 0.733);;
 	color:  rgb(27, 158, 235);
-	font-family: Optima;
+	font-family: Comic Sans MS;
 }
 
 .cb {
@@ -42,9 +14,6 @@
 	width: 1vw;
 }
 
-.mark {
-	border: 0px;
-}
 
 .itemImage {
 	width: 40%;
@@ -54,3 +23,33 @@
 .detailPage p {
 	max-width: 50%;
 }
+
+@media only screen and (min-width: 300px) {
+	.detailPage {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-size: 1em;
+	}
+
+}
+
+@media only screen and (min-width: 600px) {
+	.detailPage {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-size: 1em;
+	}
+}
+  @media only screen and (min-width: 900px) {
+	.detailPage {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-size: 1em;
+	}
+  }

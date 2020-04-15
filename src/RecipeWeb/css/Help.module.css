@@ -9,7 +9,7 @@
 #add_recipe_page {
 	display: flex;
 	flex-direction: column;
-	background:rgba(230, 120, 18, 0.733);
+	background-image: linear-gradient( 135deg, #FDD819 10%, #E80505 100%);;
 	align-items: center;
 	min-height: 75%;
 
@@ -73,7 +73,7 @@ select {
 }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
 	.container {
 		display: flex;
 		justify-content: center;
